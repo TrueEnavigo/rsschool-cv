@@ -1,1 +1,1 @@
-https://TrueEnavigo.github.io/rsschool-cv/cv
+https://TrueEnavigo.github.io/rsschool-cv/
