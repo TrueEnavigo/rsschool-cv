@@ -1,0 +1,115 @@
+/*позиционирование*/
+/*блочная модель (размеры, отступы)*/
+/*типографика (свойства шрифта)*/
+/*оформление (цвет фона, тень)*/
+/*анимация*/
+
+@font-face {
+    font-family: Joan;
+     src: url("assets/fonts/Joan-Regular.ttf");
+   }
+body {
+    font-family: Joan;
+}
+* {
+    box-sizing: border-box;
+    background-color: orchid;
+  }
+body {
+  text-align: center;
+}
+.header {
+  text-align: left;
+}
+.profile {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+.title {
+  line-height: 2.5;
+  font-variant: small-caps;
+  letter-spacing: 10px;
+  font-size: 20px;
+}
+.avatar {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  border-bottom: 15px solid #800080;
+}
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+}
+.nav-link:link,
+.nav-link:visited {
+	text-decoration: none;
+  color: #000000;
+}
+.nav-link:hover {
+	text-decoration: underline;
+  color: #0000ff;
+}
+.nav-link:active {
+	text-decoration: underline;
+  color: #ff0000;
+}
+.section {
+  width: 600px;
+}
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  text-align: left;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.code-example {
+  display:block;
+  text-align: left;
+}
+.github-link {
+  line-height: 3.5;
+}
+.github-link:link,
+.github-link:visited {
+	text-decoration: none;
+  color: #000000;
+}
+.github-link:hover {
+	text-decoration: underline;
+  color: #0000ff;
+}
+.github-link:active {
+	text-decoration: underline;
+  color: #ff0000;
+}
+h2 {
+  border-bottom: 4px solid #800080;
+}
+ul {
+  list-style: none;
+}
+.red-line {
+  padding-left: 40px;
+}
+.footer-elements {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-size: 25px;
+  font-weight: bold;
+}
